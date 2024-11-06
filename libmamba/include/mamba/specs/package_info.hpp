@@ -46,6 +46,7 @@ namespace mamba::specs
         std::string license = {};
         std::string md5 = {};
         std::string sha256 = {};
+        std::string python_site_packages_path = {};
         std::string signatures = {};
         std::vector<std::string> track_features = {};
         std::vector<std::string> dependencies = {};
